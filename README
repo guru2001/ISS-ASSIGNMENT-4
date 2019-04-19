@@ -1,0 +1,29 @@
+Experiment:
+POS TAGGING HIDDEN MARKOV'S RULE
+REQUIREMENTS:
+Python3
+Flask
+sqlite3
+requests
+
+Run the app.py to get the local host address
+python3 app.py
+Copy the link and your on the website
+
+Go to experiment and type input from unitests.txt and check with expected output.
+
+For Documentation run 
+python3 Documentation.py
+
+Press Ctrl+C to exit
+
+Frontend was obtained from the existing code in repo and modified by giving relative paths to images,js,css etc.
+Backend in app.py rendered every useful HTML page
+Made a textbox in Quizzes.html
+Sent ajax request in Experiment.html and Quizzes.html to app.py and 
+-->Stored in the database the answers given by the user in the quiz
+-->And implemented logic in app.py for experiment comparing matrices and returning an array
+
+Done By,
+R.Guru Ravi Shanker   (2018114011)
+Satyam Viksit Pansari (2018101088)
